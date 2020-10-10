@@ -5,6 +5,9 @@ import com.azuka.mvvmapps.data.JobDAO
 class Database private constructor() {
 
     //this all is important when using ROOM
+    //THIS ONLY SAVE TEMPORARY
+    //STORE IN MUTABLE LIST ONLY
+    //THIS CLASS ONLY TO DERIVE FROM JOB DAO
 
     var jobDAO = JobDAO()
         private set
