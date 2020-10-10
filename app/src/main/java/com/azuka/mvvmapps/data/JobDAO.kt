@@ -6,6 +6,7 @@ import androidx.lifecycle.MutableLiveData
 class JobDAO {
 
     //DATA ACCESS OBJECT
+    //CREATE ALL LOGIC FROM JOB CLASS
     //this DAO is fake only
     //right now using mutable list push data
     //this is for logic function to store data

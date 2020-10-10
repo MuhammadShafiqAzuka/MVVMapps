@@ -5,7 +5,8 @@ import com.azuka.mvvmapps.data.JobDAO
 
 class JobRepository private constructor(private val jobDAO: JobDAO) {
 
-    //TO STORE ALL LOGIC FUCNTION FOR JOB
+    //TO STORE ALL LOGIC FUNCTION FOR JOB
+    //INHERIT FROM DATA ACCESS OBJECT (JobDAO)
 
     // to add the job (live data)
     fun addJob(job: Job) {
