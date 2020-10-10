@@ -9,7 +9,7 @@ class JobDAO {
     //CREATE ALL LOGIC FROM JOB CLASS
     //this DAO is fake only
     //right now using mutable list push data
-    //this is for logic function to store data
+    //this is for LOGIC function to store data
 
     //assign data into the list (Job)
     private val jobList = mutableListOf<Job>()
