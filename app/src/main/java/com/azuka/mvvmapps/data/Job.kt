@@ -5,6 +5,6 @@ data class Job(
     val jobDescription: String
 ) {
     override fun toString(): String {
-        return super.toString()
+        return "$jobName - $jobDescription"
     }
 }
